@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Yalin Hakiki</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <style>
+        .border-left-list {
+            border-left: 2px solid #0d516e;
+            margin-bottom: 1rem;
+            padding-left: 20px;
+            padding-top: 0;
+            padding-bottom: 0;
+            position: relative;
+            -webkit-transition: all .3s;
+            -o-transition: all .3s;
+            transition: all .3s;
+        }
+        .text-cyan-400{color:#2b5876 !important;}
+        .bg-cyan-100{background-color: #8aacca !important;color:#fff}
+        .konten{max-width: 900px;}
+    </style>
+    
+</head>
+
+<body>
+    <div class="mx-auto konten p-3">
+        <h1 class="text-3xl font-bold">Yalin Hakiki</h1>
+        <p class="mb-10 text-cyan-400">Programmer</p>
+        <p class="mb-5">Saya belajar tentang Teknologi Informasi di SMK dan kemudian mengasah kemampuan saya melalui pengalaman kerja. Saya telah bekerja selama lebih dari 5 tahun. Keahlian saya meliputi PHP, Python, JavaScript, dan MySQL.</p>
+        <div class="grid grid-cols-12 gap-6">
+            <div class="col-span-12 sm:col-span-6">
+                <h2 class="text-xl font-bold mb-2">Bahasa Pemrograman</h2>
+                <div class="mb-10">
+                    <span class="bg-cyan-100 px-3 py-1 mb-2 inline-block rounded">PHP (Codeigniter/Laravel)</span>
+                    <span class="bg-cyan-100 px-3 py-1 mb-2 inline-block rounded">Javascript</span>
+                    <span class="bg-cyan-100 px-3 py-1 mb-2 inline-block rounded">MySQL</span>
+                    <span class="bg-cyan-100 px-3 py-1 mb-2 inline-block rounded">Python</span>
+                    <span class="bg-cyan-100 px-3 py-1 mb-2 inline-block rounded">Java</span>
+                </div>
+                <h2 class="text-xl font-bold mb-2">Keahlian Lainnya:</h2>
+                <ul class="mb-10">
+                    <li class="border-left-list"><b>Server Administrator</b><br>
+                        Instalasi, monitoring resource, backup data, optimize query
+                    </li>
+                    <li class="border-left-list"><b>Version control</b><br>Git</li>
+                    <li class="border-left-list"><b>Troubleshooting software & hardware pc</b><br>Instalasi,
+                        Analisa kerusakan pada
+                        software dan hardware</li>
+                    <li class="border-left-list"><b>Web Scraping</b><br>Mengambil data pada website dengan
+                        php/python</li>
+                    <li class="border-left-list"><b>Css</b><br>Membuat website yang responsive, rapi dan user
+                        friendly</li>
+                </ul>
+            </div>
+            <div class="col-span-12 sm:col-span-6">
+                <h2 class="text-xl font-bold mb-2">Pengalaman Kerja:</h2>
+                <ul class="mb-10">
+                    <li class="border-left-list"><b>Wahana global imedia</b><br>
+                        <span class="text-cyan-400">Programmer (2018-Sekarang)</span><br>
+                        <ol>
+                            <li>Membuat website baru</li>
+                            <li>Maintenance dan membuat fitur pelengkap (tools,data)</li>
+                            <li>Membuat aplikasi android</li>
+                        </ol>
+                    </li>
+                    <li class="border-left-list"><b>Karunia Travel</b><br>
+                        <span class="text-cyan-400">Programmer (2016-2018)</span><br>
+                        Membuat aplikasi travel dan aplikasi penunjang untuk internal
+                    </li>
+                    <li class="border-left-list"><b>Aipel Computer</b><br>
+                        <span class="text-cyan-400">Teknisi Komputer (2015-2016)</span>
+                        <ol>
+                        <li>Merakit komputer baru</li>
+                        <li>Menganalisa kerusakan dan melakukan perbaikan secara hardware dan
+                        software</li>
+                        </ol>
+                    </li>
+                </ul><br>
+                <h2 class="text-xl font-bold mb-2">Pendidikan:</h2>
+                <ul class="mb-10">
+                    <li class="border-left-list"><b>Smkn 2 Bangkalan</b><br>
+                        <span class="text-cyan-400">RPL</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <hr style="border-top: solid 2px #0d516e;">
+        <h2 class="text-xl font-bold mb-2">Portofolio:</h2>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">Slide 1</div>
+                <div class="swiper-slide">Slide 2</div>
+                <div class="swiper-slide">Slide 3</div>
+                <div class="swiper-slide">Slide 4</div>
+                <div class="swiper-slide">Slide 5</div>
+                <div class="swiper-slide">Slide 6</div>
+                <div class="swiper-slide">Slide 7</div>
+                <div class="swiper-slide">Slide 8</div>
+                <div class="swiper-slide">Slide 9</div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div><br>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+             navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+</body>
+
+</html>
